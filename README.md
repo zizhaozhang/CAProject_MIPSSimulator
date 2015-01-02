@@ -2,7 +2,6 @@ CAProject_MIPSSimulator
 =======================
 
 This code achieves a MIPS similator (Tomasulo algorihm for pipeline)
-------------------------------------------------
 How to use
 
 - Go to the /src folder
