@@ -1,0 +1,990 @@
+Cycle <1>:
+IQ:
+[ADDI R8, R0, #20] 
+RS:
+ROB:
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	0	0
+R08:	0	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <2>:
+IQ:
+[ADDI R6, R0, #1] 
+RS:
+[ADDI R8, R0, #20] 
+ROB:
+[ADDI R8, R0, #20] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	0	0
+R08:	0	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <3>:
+IQ:
+[SW R6, 716(R0)] 
+RS:
+[ADDI R8, R0, #20] 
+[ADDI R6, R0, #1] 
+ROB:
+[ADDI R8, R0, #20] 
+[ADDI R6, R0, #1] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	0	0
+R08:	0	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <4>:
+IQ:
+[ADDI R7, R0, #4] 
+RS:
+[ADDI R8, R0, #20] 
+[ADDI R6, R0, #1] 
+[SW R6, 716(R0)] 
+ROB:
+[ADDI R8, R0, #20] 
+[ADDI R6, R0, #1] 
+[SW R6, 716(R0)] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	0	0
+R08:	0	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <5>:
+IQ:
+[SW R6, 716(R7)] 
+RS:
+[ADDI R6, R0, #1] 
+[SW R6, 716(R0)] 
+[ADDI R7, R0, #4] 
+ROB:
+[ADDI R8, R0, #20] 
+[ADDI R6, R0, #1] 
+[SW R6, 716(R0)] 
+[ADDI R7, R0, #4] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	0	0
+R08:	0	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <6>:
+IQ:
+[ADDI R10, R0, #8] 
+RS:
+[ADDI R7, R0, #4] 
+[SW R6, 716(R7)] 
+ROB:
+[ADDI R6, R0, #1] 
+[SW R6, 716(R0)] 
+[ADDI R7, R0, #4] 
+[SW R6, 716(R7)] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	0	0
+R08:	20	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <7>:
+IQ:
+[ADDI R3, R10, #-8] 
+RS:
+[ADDI R7, R0, #4] 
+[SW R6, 716(R7)] 
+[ADDI R10, R0, #8] 
+ROB:
+[SW R6, 716(R0)] 
+[ADDI R7, R0, #4] 
+[SW R6, 716(R7)] 
+[ADDI R10, R0, #8] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	0
+R08:	20	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	0	0	0	0	0	0	0	0	0	0
+Cycle <8>:
+IQ:
+[LW R1, 716(R3)] 
+RS:
+[SW R6, 716(R7)] 
+[ADDI R10, R0, #8] 
+[ADDI R3, R10, #-8] 
+ROB:
+[ADDI R7, R0, #4] 
+[SW R6, 716(R7)] 
+[ADDI R10, R0, #8] 
+[ADDI R3, R10, #-8] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	0
+R08:	20	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	0	0	0	0	0	0	0	0	0
+Cycle <9>:
+IQ:
+[ADDI R4, R10, #-4] 
+RS:
+[ADDI R10, R0, #8] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+ROB:
+[SW R6, 716(R7)] 
+[ADDI R10, R0, #8] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	0	0	0	0	0	0	0	0	0
+Cycle <10>:
+IQ:
+[LW R2, 716(R4)] 
+RS:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+ROB:
+[ADDI R10, R0, #8] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	0	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <11>:
+IQ:
+[ADD R5, R1, R2] 
+RS:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+ROB:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <12>:
+IQ:
+[SW R5, 716(R10)] 
+RS:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+ROB:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <13>:
+IQ:
+[ADDI R10, R10, #4] 
+RS:
+[LW R1, 716(R3)] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+BTB:
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <14>:
+IQ:
+[BEQ R10, R8, #4] 
+RS:
+[LW R1, 716(R3)] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+BTB:
+[Entry 1]:<652,660,NotSet>
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <15>:
+IQ:
+[BEQ R10, R8, #4] 
+[J #624] 
+RS:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[ADDI R10, R10, #4] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+BTB:
+[Entry 1]:<652,660,NotSet>
+[Entry 2]:<656,624,NotSet>
+Registers:
+R00:	0	0	0	0	0	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <16>:
+IQ:
+[J #624] 
+[NOP]
+RS:
+[ADD R5, R1, R2] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+ROB:
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+BTB:
+[Entry 1]:<652,660,NotSet>
+[Entry 2]:<656,624,NotSet>
+Registers:
+R00:	0	1	0	0	0	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <17>:
+IQ:
+[NOP]
+[BREAK] 
+RS:
+[ADD R5, R1, R2] 
+[BEQ R10, R8, #4] 
+[J #624] 
+ROB:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+BTB:
+[Entry 1]:<652,660,NotSet>
+[Entry 2]:<656,624,NotSet>
+Registers:
+R00:	0	1	0	0	4	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <18>:
+IQ:
+[BREAK] 
+RS:
+[J #624] 
+ROB:
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[NOP]
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,NotSet>
+Registers:
+R00:	0	1	1	0	4	0	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <19>:
+IQ:
+[ADDI R3, R10, #-8] 
+RS:
+ROB:
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	0	4	2	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	0	0	0	0	0	0	0	0
+Cycle <20>:
+IQ:
+[LW R1, 716(R3)] 
+RS:
+[ADDI R3, R10, #-8] 
+ROB:
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	0	4	2	1	4
+R08:	20	0	8	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <21>:
+IQ:
+[ADDI R4, R10, #-4] 
+RS:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+ROB:
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	0	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <22>:
+IQ:
+[LW R2, 716(R4)] 
+RS:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+ROB:
+[J #624] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	0	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <23>:
+IQ:
+[ADD R5, R1, R2] 
+RS:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+ROB:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	0	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <24>:
+IQ:
+[SW R5, 716(R10)] 
+RS:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	4	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <25>:
+IQ:
+[ADDI R10, R10, #4] 
+RS:
+[LW R1, 716(R3)] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	4	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <26>:
+IQ:
+[BEQ R10, R8, #4] 
+RS:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	4	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <27>:
+IQ:
+[J #624] 
+RS:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+ROB:
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	4	4	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <28>:
+IQ:
+[ADDI R3, R10, #-8] 
+RS:
+[ADD R5, R1, R2] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+ROB:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	1	4	8	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <29>:
+IQ:
+[LW R1, 716(R3)] 
+RS:
+[ADD R5, R1, R2] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+ROB:
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <30>:
+IQ:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+RS:
+[ADDI R3, R10, #-8] 
+ROB:
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	2	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <31>:
+IQ:
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+RS:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+ROB:
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	3	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	0	0	0	0	0	0	0
+Cycle <32>:
+IQ:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+RS:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+ROB:
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	3	1	4
+R08:	20	0	12	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <33>:
+IQ:
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+RS:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+ROB:
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <34>:
+IQ:
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+RS:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+ROB:
+[J #624] 
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <35>:
+IQ:
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+RS:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+ROB:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	4	8	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <36>:
+IQ:
+[BEQ R10, R8, #4] 
+[J #624] 
+RS:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+ROB:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	1	2	8	8	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <37>:
+IQ:
+[J #624] 
+[ADDI R3, R10, #-8] 
+RS:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+ROB:
+[ADDI R4, R10, #-4] 
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	2	8	8	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <38>:
+IQ:
+[ADDI R3, R10, #-8] 
+[LW R1, 716(R3)] 
+RS:
+[ADD R5, R1, R2] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+ROB:
+[LW R2, 716(R4)] 
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	2	8	12	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <39>:
+IQ:
+[LW R1, 716(R3)] 
+[ADDI R4, R10, #-4] 
+RS:
+[ADD R5, R1, R2] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+ROB:
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[J #624] 
+[ADDI R3, R10, #-8] 
+BTB:
+[Entry 1]:<652,660,0>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <40>:
+IQ:
+[NOP]
+RS:
+ROB:
+[ADD R5, R1, R2] 
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	3	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <41>:
+IQ:
+[BREAK] 
+RS:
+ROB:
+[SW R5, 716(R10)] 
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[NOP]
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	5	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	0	0	0	0	0	0
+Cycle <42>:
+IQ:
+RS:
+ROB:
+[ADDI R10, R10, #4] 
+[BEQ R10, R8, #4] 
+[NOP]
+[BREAK] 
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	5	1	4
+R08:	20	0	16	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	5	0	0	0	0	0
+Cycle <43>:
+IQ:
+RS:
+ROB:
+[BEQ R10, R8, #4] 
+[NOP]
+[BREAK] 
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	5	1	4
+R08:	20	0	20	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	5	0	0	0	0	0
+Cycle <44>:
+IQ:
+RS:
+ROB:
+[NOP]
+[BREAK] 
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	5	1	4
+R08:	20	0	20	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	5	0	0	0	0	0
+Cycle <45>:
+IQ:
+RS:
+ROB:
+[BREAK] 
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	5	1	4
+R08:	20	0	20	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	5	0	0	0	0	0
+Final Cycle <45>:
+IQ:
+RS:
+ROB:
+BTB:
+[Entry 1]:<652,660,1>
+[Entry 2]:<656,624,1>
+Registers:
+R00:	0	2	3	8	12	5	1	4
+R08:	20	0	20	0	0	0	0	0
+R16:	0	0	0	0	0	0	0	0
+R24:	0	0	0	0	0	0	0	0
+Data Segment:
+716:	1	1	2	3	5	0	0	0	0	0
