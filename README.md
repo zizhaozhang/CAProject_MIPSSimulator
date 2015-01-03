@@ -6,6 +6,7 @@ This code achieves a MIPS similator (Tomasulo algorihm for pipeline)
 =======
 
 >>>>>>> d8a2fabf2b2626a1e432c2ae9ebcf144a00d8b72
+The entrance is in MIPsSimulator.cpp
 How to use
 
 - Go to the /src folder

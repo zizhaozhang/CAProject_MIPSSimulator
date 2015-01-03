@@ -205,32 +205,6 @@ void PileLine::DecodeandIssue()
 		ROB_handle.ROB[b].Ready = no;	
 		RS_handle.RS[r].Dest = b;
 	}
-	//// handle branch
-	//if(currentInstr.isBranch())
-	//{
-	//	assert(currentInstr.predictor != -2);
-	//	int isTaken = currentInstr.isTakenBrach(PC);
-	//	if (isTaken){
-	//		if(currentInstr.predictor == -1) // no find in BTB and predictor true
-	//		{BTB_handle.needUpdateTable = r;} // r is the index of RS entry, means add new 
-	//		else if(currentInstr.predictor == 0) // predict wrongly
-	//		{
-	//			BTB_handle.needUpdateTable = 100 + r; // menas to update, distinguish with addnew, I add 100 to the index
-	//		}
-	//		//else if(predictor == 1) // predict correctly
-	//		//{
-
-	//		//}
-	//	}
-	//	else // not taken
-	//	{	
-	//		if(currentInstr.predictor == 1) // predict wrongly
-	//		{
-	//			BTB_handle.needUpdateTable = 100 + r; // means update  
-	//		}
-	//	}
-	//	// if no taken and not find in BTB, regard it as normal instruction
-	//}// isBranch
 
 }
 
@@ -453,10 +427,7 @@ void PileLine::PrintOutResult(ofstream &outfile)
         {
 			
             if(ROB_handle.ROB[tempRS_Entry[i].Dest].instruction!= "")
-                //cout<<"["<<ROB_handle.ROB[tempRS_Entry[i].Dest].instruction<<"]"<<endl;
-                // if (ROB_handle.ROB[tempRS_Entry[i].Dest].instruction == "NOP")
-                // 	outfile<<"[" +  ROB_handle.ROB[tempRS_Entry[i].Dest].instruction + "]"<<endl;
-               	// else
+
                 	outfile<<"[" +  ROB_handle.ROB[tempRS_Entry[i].Dest].instruction + "] "<<endl;
         }
         i++;

@@ -1,9 +1,4 @@
 /*
-CDA5155 Fall 2014
-Computer Architecture Course Project II: MIPsSimulator
-
--------------------------------------------------
-Student Information
 
 Name: Zizhao Zhang
 UFID: 11338226
@@ -24,12 +19,6 @@ How to use
 - if error format, it will return the format requirement
 - [-Tm:n] is optional. It will output all the cycles in default.
 
-
-
--------------------------------------------------
-Authenticity
-
-"On my honor, I have neither given nor received unauthorized aid on this assignment"
 */
 
 #include <iostream>
