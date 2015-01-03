@@ -1,9 +1,8 @@
 CAProject_MIPSSimulator
 =======================
 
-This code achieves a MIPS similator (Tomasulo algorihm for pipeline)
+This code achieves a MIPS similator (Tomasulo algorihm for pipeline). The entrance is in MIPsSimulator.cpp.
 
-The entrance is in MIPsSimulator.cpp
 How to use
 
 - Go to the /src folder
